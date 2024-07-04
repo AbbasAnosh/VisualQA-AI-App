@@ -30,7 +30,6 @@ const VisqaApp = () => {
         }
       );
       setResult(response.data.result);
-      // Clear the form after successful submission
       setText("");
       setImage(null);
       setImagePreview(null);
